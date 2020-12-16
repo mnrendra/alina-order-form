@@ -410,10 +410,12 @@
           xhttp.onreadystatechange = function() {
             if (this.readyState == 4 && (this.status >= 200 && this.status < 500)) {
               const resJSON = JSON.parse(this.responseText)
+              console.log('resJSON', resJSON)
               window.open('https://alinagroup.agency/sukses/', '_self')
             }
           }
-          xhttp.open('POST', 'http://localhost:3001/lead', true)
+          xhttp.open('POST', 'https://alinagroup.agency/api/lead', true)
+          // xhttp.open('POST', 'http://localhost:3001/lead', true)
           xhttp.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
           xhttp.send(data)
         }
