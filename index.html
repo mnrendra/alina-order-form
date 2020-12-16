@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Alina order form">
+    <meta name="author" content="Muhammad Rendra https://www.instagram.com/mnrendra/">
+    <title>Alina Order Form</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <!-- Favicons -->
+    <link rel="apple-touch-icon"      href="./favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon"                  href="./favicons/favicon-32x32.png"    sizes="32x32" type="image/png">
+    <link rel="icon"                  href="./favicons/favicon-16x16.png"    sizes="16x16" type="image/png">
+    <link rel="manifest"              href="./favicons/manifest.json">
+    <link rel="mask-icon"             href="./favicons/safari-pinned-tab.svg" color="#563d7c">
+    <link rel="icon"                  href="./favicons/favicon.ico">
+    <meta name="msapplication-config" content="./favicons/browserconfig.xml">
+    <meta name="theme-color"          content="#563d7c">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="./floating-labels.css">
+    <link rel="stylesheet" href="./alina-order-form.css">
+  </head>
+  <body>
+    <div class="form-signin">
+      <div class="text-center mb-4">
+        <h1 class="h3 mb-3 font-weight-normal"><strong>Formulir Pemesanan</strong></h1>
+        <p style="text-align: left;">1. Mohon diisi dengan <strong>BENAR</strong>&nbsp;&amp; <b>VALID</b> nomor&nbsp;<strong>WhatsApp</strong>&nbsp;Anda agar&nbsp;<strong>memudahkan</strong> kami untuk <strong>menghubungi</strong> Anda&nbsp;</p>
+        <p style="text-align: left;">2. Setelah itu tekan tombol/button “<strong>Kirimkan</strong>!”&nbsp;</p>
+      </div>
+      <p style="text-align: center;" id="alina-form-order-alert"></p>
+      <br />
+      <p style="margin-bottom: 8px;"><b>Nomor WhatsApp Anda yang AKTIF &amp; VALID <span aria-hidden="true" role="presentation" class="field_required" style="color:#ee0000;">*</span></b></p>
+      <div class="form-label-group">
+        <input type="text" id="inputPhone" class="form-control" placeholder="Phone address" required autofocus>
+        <label for="inputPhone">Nomor Whatsapp</label>
+      </div>
+      <p style="margin-bottom: 8px;"><b>Nama Anda <span aria-hidden="true" role="presentation" class="field_required" style="color:#ee0000;">*</span></b></p>
+      <div class="form-label-group">
+        <input type="text" id="inputName" class="form-control" placeholder="Name" required>
+        <label for="inputName">Nama</label>
+      </div>
+      <br />
+      <button class="btn btn-lg btn-primary btn-block" id="submitButton">Kirimkan!</button>
+      <p class="mt-5 mb-3 text-muted text-center">&copy; 2020 - Alina Group Agency</p>
+    </div>
+    <script src="./alina-order-form.js"></script>
+  </body>
+</html>
